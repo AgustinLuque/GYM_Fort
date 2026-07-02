@@ -1,1 +1,1 @@
-id | apellido | nombre | edad | telefono |actividades | fecha_ingreso|
+id | apellido y nombre | edad | telefono | fecha_ingreso |

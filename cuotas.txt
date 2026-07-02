@@ -1,0 +1,1 @@
+id | actividades | ult_cuota | ult_fecha | habilitada (0/1) |
