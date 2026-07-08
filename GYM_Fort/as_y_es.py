@@ -7,8 +7,7 @@ def asistencias_y_estadisticas():
         ########################################
         1_ Registrar Asistencias
         2_ Ingresar a Estadísticas
-        3_ Ver ver registro de asistencias completo
-        4_Volver
+        3_Volver
         ########################################
         """)
         opcion = input("Ingrese una opción: ")

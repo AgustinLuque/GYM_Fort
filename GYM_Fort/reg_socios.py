@@ -26,9 +26,15 @@ def registrar_socio():
         En este apartado agregará socios al gimnasio. Por favor, ingrese los datos solicitados en el orden solicitado:
         <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
         """)
-    
+        while True:
+            dni = DNI()
+            if not socio_existe(dni) == True:
+                break
+            else: 
+                print("\n<<<<<<Ya existe este socio registrado, intente nuevamente.>>>>>>\n")
+
         registro_socio = (
-            DNI(),
+            dni,
             ayn(),
             edad(),
             membresia(),

@@ -63,7 +63,16 @@ def inscribir_actividad():
 
         with open("cuotas_novedades.txt", "w") as arch_novedades:
             for linea in lineas:
-                dni_linea, resto = linea.strip().split("|", 1)
+                linea_limpia = linea.strip()
+
+                if linea_limpia == "":
+                    continue
+
+                if "|" not in linea_limpia:
+                    arch_novedades.write(linea)
+                    continue
+
+                dni_linea, resto = linea_limpia.split("|", 1)
 
                 if dni_linea == dni:
                     linea_actualizada = dni + "|" + actividades_str + "|" + fechas_str + "|" + hab_str + "\n"
@@ -84,7 +93,6 @@ def inscribir_actividad():
         """)
 
         dni = DNI()
-
         if not socio_existe(dni):
             print("\n<<<<<<No existe un socio registrado con ese DNI.>>>>>>\n")
 
@@ -95,6 +103,9 @@ def inscribir_actividad():
                 print("\n<<<<<<El socio no tiene un registro de cuotas cargado.>>>>>>\n")
 
             else:
+                cantidad = contar_actividades(actividades_str)
+                
+
                 cantidad = contar_actividades(actividades_str)
 
                 if cantidad < 3:

@@ -10,3 +10,5 @@ id | apellido y nombre | edad | membresia | fecha_ingreso
 74196385|Perez,Nicolas|28|Anual|15/07/2026
 85214796|Rodriguez,Florencia|24|Mensual|16/07/2026
 96325874|Silva,Juan Pablo|38|Trimestral|17/07/2026
+12345678|user,user|55|Trimestral|08/07/2026
+45645645|iusdaudsa,basdhbasdj|66|Anual|08/07/2026

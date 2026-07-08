@@ -2,10 +2,8 @@ import shutil
 #>>>>>>>>>Para pedir datos de socio
 def DNI():
     while True:
-        dni = input("Ingrese el DNI del socio (sino 'S' para salir): ")
-        if input().strip().upper() != "S":
-            break
-        elif dni.isdigit() and len(dni) == 8:
+        dni = input("Ingrese el DNI del socio: ")
+        if dni.isdigit() and len(dni) == 8:
             return dni
         else:
             print("\n<<<<<<Error. Por favor, ingrese un número de DNI válido de 8 dígitos.>>>>>>\n")
@@ -173,6 +171,10 @@ def mostrar_arch():
         elif op == "3":
             with open("asistencias.txt","r") as arch_asist:
                 mostrar(arch_asist)
+        elif op == "4":
+            break
+        else:
+            print("\n<<<<<<Opción inválida. Por favor, ingrese un número del 1 al 4.>>>>>>\n")
 def mostrar(x):
     for l in x:
         print(l)
