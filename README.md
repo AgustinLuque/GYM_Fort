@@ -7,6 +7,15 @@ Este programa es un sistema gestor del gimnasio "GYM-Fort", que permite tomar as
 hasta 3 actividades, estadisticas del local, elegir el tipo de membresía, ver los registros de cada cosa y, además, 
 controlar automáticamente las cuotas de los socios con el uso de actualizacion de archivos de manera secuencial 
 según la fecha actual registrada en el programa.
+
+COMENTARIOS Y USO DE IA:
+Quisimos un programa simple para el usuario y facil de ver, por eso hiicmos subdivisiones de menu y opciones que denoten 
+sin muchos rellenos los datos importantes que necesita un gestor de gimnasio. Se puede ver con claridad todo tipo de datos importantes, un claro ejemplo son las estadisticas tabuladas, o nuestro distintivo uso de actualizacion de archivos para 
+que el correspondiente gestor no tenga que manualmente identificar entre miles de registros cuales estan vencidos y cuales no.
+Con respecto a la ia, jugó un papel fundamental, ya que nos ayudó a plasmar los contenidos dados por el aula virtual en un
+programa en un lenguaje distinto al que venimos haciendo: Aclaramos dudas, nos proporcionó ideas y sobre todo detectó nuestros errores.
+
+
 INSTRUCCIONES DE EJECUCIÓN:
 1) Ingresar al archivo main.py y ejecutar
 2) Una vez ejecutado, los archivos se actualizan automaticamente
