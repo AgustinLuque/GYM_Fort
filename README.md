@@ -4,7 +4,8 @@ INTEGRANTES:
 COMISION: K1.2
 DESCRIPCION DEL PROGRAMA:
 Este programa es un sistema gestor del gimnasio "GYM-Fort", que permite tomar asistencias, registrar socios, añadirles 
-hasta 3 actividades, estadisticas del local, elegir el tipo de membresía, ver los registros de cada cosa y, además, 
+hasta 3 actividades (y si tiene actividades con cuota venida reemplazarlas), 
+estadisticas del local, elegir el tipo de membresía, ver los registros de cada cosa y, además, 
 controlar automáticamente las cuotas de los socios con el uso de actualizacion de archivos de manera secuencial 
 según la fecha actual registrada en el programa.
 
