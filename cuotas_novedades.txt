@@ -1,0 +1,8 @@
+id | Actividades | Ultimas cuotas | Habilidado(si/no)
+47223641|Funcional,HIIT,Funcional|07/07/2026,07/07/2026,07/07/2026|1,1,1
+12312312|Yoga,Pilates,Musculacion|07/07/2026,07/07/2026,07/07/2026|1,1,1
+45645645|Boxeo,Musculacion|07/07/2026,07/07/2026|1,1
+46677160|Musculacion,Funcional|08/07/2026,08/07/2026|1,1
+45645689|Funcional,Musculacion|08/07/2026,08/07/2026|1,1
+78978989|Funcional,Musculacion|08/07/2026,08/07/2026|1,1
+12312323|Funcional,Musculacion,Boxeo|08/07/2026,08/07/2026,08/07/2026|1,1,1

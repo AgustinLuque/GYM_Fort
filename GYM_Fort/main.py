@@ -1,9 +1,9 @@
-from act_socios import actualizar_cuotas_y_socios
-from reg_socios import registrar_socio
-from in_act import inscribir_actividad
-from datetime import datetime
+from as_y_es import asistencias_y_estadisticas
+from sya import socios_y_actividades
+from subacciones import *
+import datetime as dt
 
-hoy = datetime.now()
+hoy = dt.datetime.now()
 ######################################
 def actualizar_fecha():
     with open("fecha.txt", "w") as arch_fecha:
@@ -15,7 +15,7 @@ def detectar_dia():
         fecha_actual = hoy.strftime("%d/%m/%Y")
         if fecha_guardada != fecha_actual:
             actualizar_fecha()
-            actualizar_cuotas_y_socios(hoy)
+            actualizar_cuotas_y_socios(hoy,dt)
 
 
 def main ():
@@ -23,31 +23,26 @@ def main ():
         detectar_dia()
         print("""
               ########################################
-              Bienvenido a GYM Fort, que desea hacer?
 
-              1_ Registrar socios 
-              2_ Inscripción a actividades 
-              3_ Asistencias 
-              4_  Control de cuotas 
-              5_ Estadísticas 
-              6_ Salir 
+              Bienvenido a GYM Fort, que desea hacer?
+              1_ Socios y Actividades
+              2_ Asistencia y Estadísticas
+              3_ Ver archivos
+              4_Salir
+
               ########################################
               """)
         opcion = input("Ingrese una opción: ")
         if opcion == "1":
-            registrar_socio()
+            socios_y_actividades()
         elif opcion == "2":
-            pass
+            asistencias_y_estadisticas()
         elif opcion == "3":
-            pass
+            mostrar_arch()
         elif opcion == "4":
-            pass
-        elif opcion == "5":
-            pass
-        elif opcion == "6":
             break
         else:
-            print("\n<<<<<<Opción inválida. Por favor, ingrese un número del 1 al 6.>>>>>>\n")
+            print("\n<<<<<<Opción inválida. Por favor, ingrese un número del 1 al 4.>>>>>>\n")
 
 
 if __name__ == "__main__":

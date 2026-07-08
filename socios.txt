@@ -1,1 +1,12 @@
-id | apellido y nombre | edad | telefono | fecha_ingreso |
+id | apellido y nombre | edad | membresia | fecha_ingreso 
+47223641|Luque,Ignacio Agustin|20|Menusal|07/07/2026
+78945612|Martinez,Julieta|25|Mensual|08/07/2026
+32165498|Fernandez,Carlos|33|Trimestral|09/07/2026
+65498732|Ramirez,Sofia|29|Anual|10/07/2026
+98732145|Gomez,Luciano|22|Mensual|11/07/2026
+14725836|Torres,Valentina|27|Mensual|12/07/2026
+25836914|Dominguez,Matias|35|Trimestral|13/07/2026
+36985247|Alvarez,Camila|31|Mensual|14/07/2026
+74196385|Perez,Nicolas|28|Anual|15/07/2026
+85214796|Rodriguez,Florencia|24|Mensual|16/07/2026
+96325874|Silva,Juan Pablo|38|Trimestral|17/07/2026
